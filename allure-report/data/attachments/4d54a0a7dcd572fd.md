@@ -1,0 +1,495 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - navigation "Primary" [ref=e4]:
+        - generic [ref=e5]:
+          - link "Amazon.in" [ref=e8] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - heading "Learn more about secure checkout" [level=1] [ref=e11] [cursor=pointer]:
+            - button "Learn more about secure checkout" [ref=e12] [cursor=pointer]: Secure checkout
+          - link "Back to cart" [ref=e17] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e21] [cursor=pointer]: Cart
+    - generic [ref=e24]:
+      - generic [ref=e28]:
+        - generic [ref=e31] [cursor=pointer]:
+          - button "Deliver to this address" [ref=e32] [cursor=pointer]
+          - generic [ref=e33] [cursor=pointer]: Deliver to this address
+        - separator [ref=e34]
+        - table [ref=e35]:
+          - rowgroup [ref=e36]:
+            - 'row "Items: --" [ref=e37]':
+              - cell "Items:" [ref=e38]:
+                - generic [ref=e39]: "Items:"
+              - cell "--" [ref=e40]
+            - 'row "Delivery: --" [ref=e41]':
+              - cell "Delivery:" [ref=e42]:
+                - generic [ref=e43]: "Delivery:"
+              - cell "--" [ref=e44]
+            - 'row "Total: --" [ref=e45]':
+              - cell "Total:" [ref=e46]:
+                - generic [ref=e47]: "Total:"
+              - cell "--" [ref=e48]
+            - row "FREE Delivery --" [ref=e49]:
+              - cell "FREE Delivery" [ref=e50]
+              - cell "--" [ref=e51]
+            - 'row "Order Total: ₹4,96,919.00" [ref=e52]':
+              - cell "Order Total:" [ref=e53]:
+                - generic [ref=e54]: "Order Total:"
+              - cell "₹4,96,919.00" [ref=e55]
+            - row [ref=e56]:
+              - cell [ref=e57]
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - heading "Select a delivery address" [level=2] [ref=e63]
+          - group [ref=e67]:
+            - generic [ref=e69]:
+              - generic [ref=e71]:
+                - heading "One-time password required at time of delivery" [level=4] [ref=e72]
+                - generic [ref=e75]:
+                  - generic [ref=e76]: Please ensure someone will be available to receive this delivery.
+                  - link "Learn more." [ref=e77] [cursor=pointer]:
+                    - /url: /gp/help/customer/display.html?nodeId=202122140
+                    - generic [ref=e78] [cursor=pointer]: Learn more.
+              - generic [ref=e84]: One or more items in your order are scheduled for service. An adult must be present at the time of service. Confirm or change your scheduled service time below before placing your order.
+            - generic [ref=e85]:
+              - separator [ref=e86]
+              - heading "All addresses. There are (2) addresses in total including delivery and locker addresses" [level=4] [ref=e88]:
+                - generic [ref=e89]: Delivery addresses (2)
+            - generic [ref=e90]:
+              - radiogroup "Delivery addresses (2)" [ref=e91]:
+                - generic [ref=e94]:
+                  - 'radio "Lalit Rabab studio, Sector 74, MOHALI, PUNJAB, 160055, India Phone number: 7889630221 Edit address | Add delivery instructions" [checked] [ref=e95]'
+                  - generic [ref=e98]:
+                    - generic [ref=e99]: Lalit
+                    - generic [ref=e100]: Rabab studio, Sector 74, MOHALI, PUNJAB, 160055, India
+                    - generic [ref=e101]: "Phone number: 7889630221"
+                    - generic [ref=e102]:
+                      - link "Edit address" [ref=e106] [cursor=pointer]:
+                        - /url: "#"
+                      - generic [ref=e107]: "|"
+                      - link "Add delivery instructions" [ref=e110] [cursor=pointer]:
+                        - /url: "#"
+              - radiogroup "Delivery addresses (2)" [ref=e111]:
+                - generic [ref=e114]:
+                  - 'radio "Lalit sharma Near govt middle school, sallan, Village sallan, p/o dyalachak, teh hiranagar, HIRANAGAR, JAMMU & KASHMIR, 184144, India Phone number: 7889630221 Edit address | Add delivery instructions" [ref=e115]'
+                  - generic [ref=e118]:
+                    - generic [ref=e119]: Lalit sharma
+                    - generic [ref=e120]: Near govt middle school, sallan, Village sallan, p/o dyalachak, teh hiranagar, HIRANAGAR, JAMMU & KASHMIR, 184144, India
+                    - generic [ref=e121]: "Phone number: 7889630221"
+                    - generic [ref=e122]:
+                      - link "Edit address" [ref=e126] [cursor=pointer]:
+                        - /url: "#"
+                      - generic [ref=e127]: "|"
+                      - link "Add delivery instructions" [ref=e130] [cursor=pointer]:
+                        - /url: "#"
+            - link "Add a new delivery address" [ref=e133] [cursor=pointer]:
+              - /url: "#"
+            - link "Deliver to multiple addresses" [ref=e135] [cursor=pointer]:
+              - /url: /checkout/p/p-404-4613177-5497927/itemselect?pipelineType=Chewbacca&referrer=address&ref_=chk_addr_multi_addr&fromAnywhere=1&useCase=multiAddress&ie=UTF8
+          - generic [ref=e139] [cursor=pointer]:
+            - button "Deliver to this address" [ref=e140] [cursor=pointer]
+            - generic [ref=e141] [cursor=pointer]: Deliver to this address
+        - generic [ref=e144]:
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic:
+                - link:
+                  - /url: /checkout/p/p-404-4613177-5497927/pay?pipelineType=Chewbacca&referrer=address&ref_=chk_spc_editPayment&redirectReason=ChangePaymentMethod
+            - link "Use a gift card, voucher or promo code" [ref=e150] [cursor=pointer]:
+              - /url: /checkout/p/p-404-4613177-5497927/pay?pipelineType=Chewbacca&referrer=address&ref_=chk_spc_addGiftVoucherPromo&redirectReason=UseGiftVoucherPromo
+          - link "Change payment method" [ref=e153] [cursor=pointer]:
+            - /url: /checkout/p/p-404-4613177-5497927/pay?pipelineType=Chewbacca&referrer=address&ref_=chk_shipaddressselect_chg_payselect
+            - text: Change
+        - heading "Review items and shipping" [level=2] [ref=e156]
+        - generic [ref=e159]:
+          - paragraph [ref=e160]:
+            - generic [ref=e161]: Need help? Check our
+            - link "help pages" [ref=e162] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?ref=chk_help_helpfooter_pri&nodeId=G57CN6WR9MNVANT8
+              - generic [ref=e163] [cursor=pointer]: help pages
+            - generic [ref=e164]: or
+            - link "contact us 24x7" [ref=e165] [cursor=pointer]:
+              - /url: /gp/help/contact-us/general-questions.html?ref_=chk_help_contactfooter_pri
+              - generic [ref=e166] [cursor=pointer]: contact us 24x7
+          - paragraph [ref=e167]:
+            - generic [ref=e168]: When your order is placed, we'll send you an e-mail message acknowledging receipt of your order. If you choose to pay using an electronic payment method (credit card, debit card or net banking), you will be directed to your bank's website to complete your payment. Your contract to purchase an item will not be complete until we receive your electronic payment and dispatch your item. If you choose to pay using Pay on Delivery (POD), you can pay using cash/card/net banking when you receive your item.
+          - paragraph [ref=e169]:
+            - generic [ref=e170]: See Amazon.in's
+            - link "Return Policy" [ref=e171] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201149900
+              - generic [ref=e172] [cursor=pointer]: Return Policy
+            - generic [ref=e173]: .
+          - paragraph [ref=e174]:
+            - link "Back to cart" [ref=e175] [cursor=pointer]:
+              - /url: /gp/cart/view.html?ref_=chk_spc_backToCart
+    - generic [ref=e176]:
+      - button "Back to top" [ref=e177]:
+        - generic [ref=e179]: Back to top
+      - generic [ref=e180]:
+        - link "Amazon India Home" [ref=e183] [cursor=pointer]:
+          - /url: /ref=footer_logo
+        - list [ref=e187]:
+          - listitem [ref=e188]:
+            - link "Help" [ref=e189] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+      - generic [ref=e190]:
+        - list [ref=e191]:
+          - listitem [ref=e192]:
+            - link "Conditions of Use & Sale" [ref=e193] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+          - listitem [ref=e194]:
+            - link "Privacy Notice" [ref=e195] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+          - listitem [ref=e196]:
+            - link "Interest-Based Ads" [ref=e197] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+        - generic [ref=e198]: © 1996-2025, Amazon.com, Inc. or its affiliates
+    - iframe [ref=e200]:
+      - iframe [ref=f1e2]:
+        - generic [active]:
+          - img [ref=f2e1]
+          - img [ref=f2e2]
+          - img [ref=f2e3]
+          - img [ref=f2e4]
+          - img [ref=f2e5]
+          - img [ref=f2e6]
+          - img [ref=f2e7]
+          - img [ref=f2e8]
+  - dialog [ref=e202]:
+    - generic [ref=e204]:
+      - banner [ref=e205]:
+        - heading "Add an address" [level=4] [ref=e206]
+        - button "Close" [ref=e207] [cursor=pointer]
+      - generic [ref=e210]:
+        - generic [ref=e213]:
+          - heading "Enter a new delivery address" [level=2] [ref=e214]
+          - grid [ref=e219]:
+            - generic [ref=e222]: Save time. Autofill your current location.
+            - button "Save time. Autofill your current location." [ref=e226] [cursor=pointer]:
+              - generic [ref=e228] [cursor=pointer]: Autofill
+          - generic [ref=e230]:
+            - generic [ref=e234]: Country/Region
+            - generic [ref=e236]:
+              - combobox "Country/Region" [ref=e237]:
+                - option "Afghanistan"
+                - option "Aland Islands"
+                - option "Albania"
+                - option "Algeria"
+                - option "American Samoa"
+                - option "Andorra"
+                - option "Angola"
+                - option "Anguilla"
+                - option "Antarctica"
+                - option "Antigua and Barbuda"
+                - option "Argentina"
+                - option "Armenia"
+                - option "Aruba"
+                - option "Australia"
+                - option "Austria"
+                - option "Azerbaijan"
+                - option "Bahamas, The"
+                - option "Bahrain"
+                - option "Bangladesh"
+                - option "Barbados"
+                - option "Belarus"
+                - option "Belgium"
+                - option "Belize"
+                - option "Benin"
+                - option "Bermuda"
+                - option "Bhutan"
+                - option "Bolivia"
+                - option "Bonaire, Saint Eustatius and Saba"
+                - option "Bosnia and Herzegovina"
+                - option "Botswana"
+                - option "Bouvet Island"
+                - option "Brazil"
+                - option "British Indian Ocean Territory"
+                - option "Brunei Darussalam"
+                - option "Bulgaria"
+                - option "Burkina Faso"
+                - option "Burundi"
+                - option "Cambodia"
+                - option "Cameroon"
+                - option "Canada"
+                - option "Canary Islands"
+                - option "Cape Verde"
+                - option "Cayman Islands"
+                - option "Central African Republic"
+                - option "Chad"
+                - option "Chile"
+                - option "China"
+                - option "Christmas Island"
+                - option "Cocos (Keeling) Islands"
+                - option "Colombia"
+                - option "Comoros"
+                - option "Congo"
+                - option "Congo, Democratic Republic of"
+                - option "Cook Islands"
+                - option "Costa Rica"
+                - option "Croatia"
+                - option "Curaçao"
+                - option "Cyprus"
+                - option "Czech Republic"
+                - option "Denmark"
+                - option "Djibouti"
+                - option "Dominica, Commonwealth of"
+                - option "Dominican Republic"
+                - option "East Timor"
+                - option "Ecuador"
+                - option "Egypt"
+                - option "El Salvador"
+                - option "Equatorial Guinea"
+                - option "Eritrea"
+                - option "Estonia"
+                - option "Ethiopia"
+                - option "Falkland Islands"
+                - option "Faroe Islands"
+                - option "Fiji"
+                - option "Finland"
+                - option "France"
+                - option "French Guiana"
+                - option "French Polynesia"
+                - option "French Southern Territories"
+                - option "Gabon"
+                - option "Gambia, The"
+                - option "Georgia"
+                - option "Germany"
+                - option "Ghana"
+                - option "Gibraltar"
+                - option "Greece"
+                - option "Greenland"
+                - option "Grenada"
+                - option "Guadeloupe"
+                - option "Guam"
+                - option "Guatemala"
+                - option "Guernsey"
+                - option "Guinea"
+                - option "Guinea-Bissau"
+                - option "Guyana"
+                - option "Haiti"
+                - option "Heard Island and the McDonald Islands"
+                - option "Holy See"
+                - option "Honduras"
+                - option "Hong Kong"
+                - option "Hungary"
+                - option "Iceland"
+                - option "India" [selected]
+                - option "Indonesia"
+                - option "Iraq"
+                - option "Ireland, Republic of"
+                - option "Isle of Man"
+                - option "Israel"
+                - option "Italy"
+                - option "Ivory Coast (Côte D'ivoire)"
+                - option "Jamaica"
+                - option "Japan"
+                - option "Jersey"
+                - option "Jordan"
+                - option "Kazakhstan"
+                - option "Kenya"
+                - option "Kiribati"
+                - option "Korea, Republic of"
+                - option "Kosovo"
+                - option "Kuwait"
+                - option "Kyrgyzstan"
+                - option "Lao, People's Democratic Republic"
+                - option "Latvia"
+                - option "Lebanon"
+                - option "Lesotho"
+                - option "Liberia"
+                - option "Libya"
+                - option "Liechtenstein"
+                - option "Lithuania"
+                - option "Luxembourg"
+                - option "Macao"
+                - option "Macedonia, The Former Yugoslav Republic of"
+                - option "Madagascar"
+                - option "Malawi"
+                - option "Malaysia"
+                - option "Maldives"
+                - option "Mali"
+                - option "Malta"
+                - option "Marshall Islands"
+                - option "Martinique"
+                - option "Mauritania"
+                - option "Mauritius"
+                - option "Mayotte"
+                - option "Mexico"
+                - option "Micronesia, Federated States of"
+                - option "Moldova, Republic of"
+                - option "Monaco"
+                - option "Mongolia"
+                - option "Montenegro"
+                - option "Montserrat"
+                - option "Morocco"
+                - option "Mozambique"
+                - option "Myanmar"
+                - option "Namibia"
+                - option "Nauru"
+                - option "Nepal"
+                - option "Netherlands"
+                - option "Netherlands Antilles"
+                - option "New Caledonia"
+                - option "New Zealand"
+                - option "Nicaragua"
+                - option "Niger"
+                - option "Nigeria"
+                - option "Niue"
+                - option "Norfolk Island"
+                - option "Northern Mariana Islands"
+                - option "Norway"
+                - option "Oman"
+                - option "Pakistan"
+                - option "Palau"
+                - option "Palestinian Territories"
+                - option "Panama"
+                - option "Papua New Guinea"
+                - option "Paraguay"
+                - option "Peru"
+                - option "Philippines"
+                - option "Pitcairn"
+                - option "Poland"
+                - option "Portugal"
+                - option "Puerto Rico"
+                - option "Qatar"
+                - option "Reunion"
+                - option "Romania"
+                - option "Russian Federation"
+                - option "Rwanda"
+                - option "Saint Barthelemy"
+                - option "Saint Helena, Ascension and Tristan da Cunha"
+                - option "Saint Kitts and Nevis"
+                - option "Saint Lucia"
+                - option "Saint Martin"
+                - option "Saint Pierre and Miquelon"
+                - option "Saint Vincent and the Grenadines"
+                - option "Samoa"
+                - option "San Marino"
+                - option "Sao Tome and Principe"
+                - option "Saudi Arabia"
+                - option "Senegal"
+                - option "Serbia"
+                - option "Seychelles"
+                - option "Sierra Leone"
+                - option "Singapore"
+                - option "Sint Maarten"
+                - option "Slovakia"
+                - option "Slovenia"
+                - option "Solomon Islands"
+                - option "Somalia"
+                - option "South Africa"
+                - option "South Georgia and the South Sandwich Islands"
+                - option "Spain"
+                - option "Sri Lanka"
+                - option "Suriname"
+                - option "Svalbard and Jan Mayen"
+                - option "Swaziland"
+                - option "Sweden"
+                - option "Switzerland"
+                - option "Taiwan"
+                - option "Tajikistan"
+                - option "Tanzania, United Republic of"
+                - option "Thailand"
+                - option "Togo"
+                - option "Tokelau"
+                - option "Tonga"
+                - option "Trinidad and Tobago"
+                - option "Tunisia"
+                - option "Turkey"
+                - option "Turkmenistan"
+                - option "Turks and Caicos Islands"
+                - option "Tuvalu"
+                - option "Uganda"
+                - option "Ukraine"
+                - option "United Arab Emirates"
+                - option "United Kingdom"
+                - option "United States"
+                - option "United States Minor Outlying Islands"
+                - option "Uruguay"
+                - option "Uzbekistan"
+                - option "Vanuatu"
+                - option "Venezuela"
+                - option "Vietnam"
+                - option "Virgin Islands, British"
+                - option "Virgin Islands, US"
+                - option "Wallis and Futuna"
+                - option "Western Sahara"
+                - option "Yemen"
+                - option "Zambia"
+                - option "Zimbabwe"
+              - generic [ref=e241] [cursor=pointer]: India
+            - generic [ref=e247]: Full name (First and Last name)
+            - textbox "Full name (First and Last name)" [ref=e249]: Testing purpose
+            - generic [ref=e254]: Mobile number
+            - generic [ref=e255]:
+              - textbox "Mobile number" [ref=e256]: "1234567892"
+              - generic [ref=e258]: May be used to assist delivery
+            - generic [ref=e263]: Pincode
+            - textbox "Pincode" [ref=e265]: "160055"
+            - generic [ref=e270]: Flat, House no., Building, Company, Apartment
+            - textbox "Flat, House no., Building, Company, Apartment" [active] [ref=e272]: Mohali, Punjab
+            - generic [ref=e276]: Area, Street, Sector, Village
+            - textbox "Area, Street, Sector, Village" [ref=e278]: Iota technologies
+            - generic [ref=e282]: Landmark
+            - textbox "Landmark" [ref=e284]
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - generic [ref=e290]: Town/City
+                - textbox "Town/City" [ref=e292]: MOHALI
+              - generic [ref=e294]:
+                - generic [ref=e298]: State
+                - generic [ref=e300]:
+                  - combobox "State" [ref=e301]:
+                    - option "Choose a state"
+                    - option "ANDAMAN & NICOBAR ISLANDS"
+                    - option "ANDHRA PRADESH"
+                    - option "ARUNACHAL PRADESH"
+                    - option "ASSAM"
+                    - option "BIHAR"
+                    - option "CHANDIGARH"
+                    - option "CHHATTISGARH"
+                    - option "DADRA AND NAGAR HAVELI AND DAMAN AND DIU"
+                    - option "DELHI"
+                    - option "GOA"
+                    - option "GUJARAT"
+                    - option "HARYANA"
+                    - option "HIMACHAL PRADESH"
+                    - option "JAMMU & KASHMIR"
+                    - option "JHARKHAND"
+                    - option "KARNATAKA"
+                    - option "KERALA"
+                    - option "LADAKH"
+                    - option "LAKSHADWEEP"
+                    - option "MADHYA PRADESH"
+                    - option "MAHARASHTRA"
+                    - option "MANIPUR"
+                    - option "MEGHALAYA"
+                    - option "MIZORAM"
+                    - option "NAGALAND"
+                    - option "ODISHA"
+                    - option "PUDUCHERRY"
+                    - option "PUNJAB" [selected]
+                    - option "RAJASTHAN"
+                    - option "SIKKIM"
+                    - option "TAMIL NADU"
+                    - option "TELANGANA"
+                    - option "TRIPURA"
+                    - option "UTTAR PRADESH"
+                    - option "UTTARAKHAND"
+                    - option "WEST BENGAL"
+                  - generic [ref=e305] [cursor=pointer]: PUNJAB
+          - generic [ref=e309]:
+            - checkbox "Make this my default address" [ref=e310]
+            - generic [ref=e312]: Make this my default address
+          - heading "Delivery instructions (optional)" [level=5] [ref=e313]
+          - button "Add preferences, notes, access codes and more" [ref=e315] [cursor=pointer]:
+            - generic [ref=e318] [cursor=pointer]: Add preferences, notes, access codes and more
+        - generic [ref=e322] [cursor=pointer]:
+          - button "Deliver to this address" [ref=e323] [cursor=pointer]
+          - generic [ref=e324] [cursor=pointer]: Use this address
+```

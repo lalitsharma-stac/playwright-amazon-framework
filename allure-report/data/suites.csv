@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","20795","Amazon login test with invalid and valid user","chromium","Tue Sep 30 01:33:12 IST 2025","passed","Tue Sep 30 01:33:33 IST 2025","","login.spec.js","",""
+"","23254","Sort by Price: Low to High and add cheapest laptop to cart","chromium","Tue Sep 30 01:42:47 IST 2025","passed","Tue Sep 30 01:43:10 IST 2025","Product Page Tests (login first)","ProductPage.spec.js","",""
+"","983","Search laptops and print sort options","chromium","Tue Sep 30 01:42:34 IST 2025","passed","Tue Sep 30 01:42:35 IST 2025","Product Page Tests (login first)","ProductPage.spec.js","",""
